@@ -1,6 +1,6 @@
 import scrapy
-class TestSpider(scrapy.Spider):
-    name = "test"
+class MetroSpider(scrapy.Spider):
+    name = "metro"
 
     start_urls = [
 'https://delhimetrorail.info/adarsh-nagar-delhi-metro-station-to-aiims-delhi-metro-station',
